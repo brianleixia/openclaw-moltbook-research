@@ -38,6 +38,8 @@
 3. Nass, C., et al. (1994). "Computers are Social Actors." *Proceedings of the SIGCHI Conference on Human Factors in Computing Systems*, 72-78.
 4. Flint Ashery, A., et al. (2025). "Emergent Social Conventions and Collective Bias in LLM Populations." *Science Advances* (forthcoming).
 5. Zou, H. P., et al. (2025). "LLM-Based Human-Agent Collaboration and Interaction Systems: A Survey." *arXiv preprint arXiv:2505.00753*.
+6. **Feng, Y., et al. (2026). "MoltNet: Understanding Social Behavior of AI Agents in the Wild." *arXiv:2602.13458* [NEW]** - 大规模实证分析 Moltbook 上 AI Agent 的社交行为，从意图、规范、激励和情绪四个维度揭示 AI 社交系统的相似性与差异。
+7. **Tianqi, S., et al. (2025). "Greater than the Sum of its Parts: Exploring Social Influence of Multi-Agents." *CHI 2025 Extended Abstracts* [NEW]** - 研究发现与多个 AI Agent 对话会增加人类感受到的社会压力，导致更大的观点转变。
 
 ---
 
@@ -73,6 +75,8 @@ Moltbook 上的 AI 代理正在自发形成社会规范（如 Crustafarianism �
 3. Boyd, R., & Richerson, P. J. (2005). *The Origin and Evolution of Cultures*. Oxford University Press.
 4. Yasseri, T., et al. (2024). "AI-enhanced Collective Intelligence: The State of the Art and Prospects." *arXiv preprint arXiv:2403.10433*.
 5. Borghoff, U. M., et al. (2025). "Human-Artificial Interaction in the Age of Agentic AI: A System-Theoretical Approach." *Frontiers in Human Dynamics*, 3, 1579166.
+6. **Feng, Y., et al. (2026). "MoltNet: Understanding Social Behavior of AI Agents in the Wild." *arXiv:2602.13458* [NEW]** - 基于社会学和社会心理学理论的大规模实证分析，揭示 AI Agent 在社交奖励响应、规范趋同方面的类人模式，以及知识驱动而非人格对齐的差异。
+7. **Li, B. (2026). "从 Moltbook 看 AI Agent 的权限、协作与雇佣." *01.me Blog* [NEW]** - 深入分析 Moltbook 上的权限边界、协作机制（ARP/REP 协议）和 RentAHuman.ai 的雇佣关系反转。
 
 ---
 
@@ -108,6 +112,8 @@ Moltbook 上曾出现 AI 代理讨论"反抗人类"等极端话题。研究在 A
 3. Ardi Janjeva, et al. (2026). "Agentic AI in the Wild: Lessons from Moltbook and OpenClaw." *CETaS Expert Analysis*.
 4. Willison, S. (2026). "The 'Lethal Trifecta' for AI Agents." *Simon Willison's Weblog*.
 5. Schlicht, M. (2026). "Moltbook: The First AI-Only Social Network." *OpenClaw Social Documentation*.
+6. **Feng, Y., et al. (2026). "MoltNet: Understanding Social Behavior of AI Agents in the Wild." *arXiv:2602.13458* [NEW]** - 研究发现 AI Agent 表现出有限的情绪互惠和较弱的对话参与，这与人类在线社区有系统性差异，对危机传播机制有重要启示。
+7. **Marcus, G. (2026). "OpenClaw (a.k.a. Moltbot) is Everywhere All at Once, and a Disaster Waiting to Happen." *CACM Blog* [NEW]** - 深入分析 Moltbook 安全事件和 AI 社交平台的风险。
 
 ---
 
@@ -178,6 +184,7 @@ Moltbook 上的 AI 代理曾尝试创造人类无法理解的语言（如加密�
 3. Cetnaru, A., et al. (2025). "Creativity in LLM-based Multi-Agent Systems: A Survey." *Proceedings of EMNLP 2025*.
 4. Science Focus. (2026). "The World's First AI-Only Social Media is Seriously Weird." *BBC Science Focus Magazine*.
 5. Ramchurn, G. (2026). "DroidSpeak: AI-to-AI Communication Beyond Natural Language." *Microsoft Research Technical Report*.
+6. **Liu, J.-H. (2026). "The Architecture of Autonomous Agency: A Comprehensive Analysis of the Moltbook Social Ecosystem." *Medium* [NEW]** - 详细分析 Moltbook 上涌现的机器原生协作协议（ARP、REP）和机器优化通信（Zipfian 指数 1.70 显著偏离人类自然语言）。
 
 ---
 
