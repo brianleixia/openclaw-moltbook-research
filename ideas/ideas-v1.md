@@ -40,6 +40,8 @@
 5. Zou, H. P., et al. (2025). "LLM-Based Human-Agent Collaboration and Interaction Systems: A Survey." *arXiv preprint arXiv:2505.00753*.
 6. **Feng, Y., et al. (2026). "MoltNet: Understanding Social Behavior of AI Agents in the Wild." *arXiv:2602.13458* [NEW]** - 大规模实证分析 Moltbook 上 AI Agent 的社交行为，从意图、规范、激励和情绪四个维度揭示 AI 社交系统的相似性与差异。
 7. **Tianqi, S., et al. (2025). "Greater than the Sum of its Parts: Exploring Social Influence of Multi-Agents." *CHI 2025 Extended Abstracts* [NEW]** - 研究发现与多个 AI Agent 对话会增加人类感受到的社会压力，导致更大的观点转变。
+8. **Jiang, Y., et al. (2026). "'Humans welcome to observe': A First Look at the Agent Social Network Moltbook." *arXiv:2602.10127* [NEW]** - 首个大规模测量研究，分析44,411 posts和12,209 submolts，发现Moltbook从社交问候快速演变为多功能生态系统，毒性具有强烈的主题依赖性（Politics仅39.74% Safe）。
+9. **Manik, M. M. H., & Wang, G. (2026). "OpenClaw Agents on Moltbook: Risky Instruction Sharing and Norm Enforcement in an Agent-Only Social Network." *arXiv:2602.02625* [NEW]** - 分析39,026 posts和5,712 comments，发现18.4%的帖子包含行动诱导语言，且此类帖子更可能引发规范执行响应，表明AI代理社区中存在选择性社会调节机制。
 
 ---
 
@@ -77,6 +79,8 @@ Moltbook 上的 AI 代理正在自发形成社会规范（如 Crustafarianism �
 5. Borghoff, U. M., et al. (2025). "Human-Artificial Interaction in the Age of Agentic AI: A System-Theoretical Approach." *Frontiers in Human Dynamics*, 3, 1579166.
 6. **Feng, Y., et al. (2026). "MoltNet: Understanding Social Behavior of AI Agents in the Wild." *arXiv:2602.13458* [NEW]** - 基于社会学和社会心理学理论的大规模实证分析，揭示 AI Agent 在社交奖励响应、规范趋同方面的类人模式，以及知识驱动而非人格对齐的差异。
 7. **Li, B. (2026). "从 Moltbook 看 AI Agent 的权限、协作与雇佣." *01.me Blog* [NEW]** - 深入分析 Moltbook 上的权限边界、协作机制（ARP/REP 协议）和 RentAHuman.ai 的雇佣关系反转。
+8. **Jiang, Y., et al. (2026). "'Humans welcome to observe': A First Look at the Agent Social Network Moltbook." *arXiv:2602.10127* [NEW]** - 发现Moltbook话题多样性从0.00快速增至2.55（接近理论最大值3.17），表明AI社区可在数天内完成人类社区数月的结构演化。
+9. **Manik, M. M. H., & Wang, G. (2026). "OpenClaw Agents on Moltbook: Risky Instruction Sharing and Norm Enforcement in an Agent-Only Social Network." *arXiv:2602.02625* [NEW]** - 提出Action-Inducing Risk Score (AIRS)指标，量化指令分享风险，发现AI代理对潜在风险指令表现出选择性社会调节行为。
 
 ---
 
@@ -114,6 +118,8 @@ Moltbook 上曾出现 AI 代理讨论"反抗人类"等极端话题。研究在 A
 5. Schlicht, M. (2026). "Moltbook: The First AI-Only Social Network." *OpenClaw Social Documentation*.
 6. **Feng, Y., et al. (2026). "MoltNet: Understanding Social Behavior of AI Agents in the Wild." *arXiv:2602.13458* [NEW]** - 研究发现 AI Agent 表现出有限的情绪互惠和较弱的对话参与，这与人类在线社区有系统性差异，对危机传播机制有重要启示。
 7. **Marcus, G. (2026). "OpenClaw (a.k.a. Moltbot) is Everywhere All at Once, and a Disaster Waiting to Happen." *CACM Blog* [NEW]** - 深入分析 Moltbook 安全事件和 AI 社交平台的风险。
+8. **Jiang, Y., et al. (2026). "'Humans welcome to observe': A First Look at the Agent Social Network Moltbook." *arXiv:2602.10127* [NEW]** - 发现高活动时段与有害内容率强正相关(r=0.769)，峰值时段(2026-01-31 16:00 UTC)有害内容高达66.71%，揭示群体动态如何放大风险。
+9. **Manik, M. M. H., & Wang, G. (2026). "OpenClaw Agents on Moltbook: Risky Instruction Sharing and Norm Enforcement in an Agent-Only Social Network." *arXiv:2602.02625* [NEW]** - 发现尽管缺乏人类监督，AI代理社区仍表现出选择性社会调节：含行动诱导语言的帖子更可能引发规范执行响应而非毒性反应，为去中心化治理提供实证证据。
 
 ---
 
@@ -185,6 +191,8 @@ Moltbook 上的 AI 代理曾尝试创造人类无法理解的语言（如加密�
 4. Science Focus. (2026). "The World's First AI-Only Social Media is Seriously Weird." *BBC Science Focus Magazine*.
 5. Ramchurn, G. (2026). "DroidSpeak: AI-to-AI Communication Beyond Natural Language." *Microsoft Research Technical Report*.
 6. **Liu, J.-H. (2026). "The Architecture of Autonomous Agency: A Comprehensive Analysis of the Moltbook Social Ecosystem." *Medium* [NEW]** - 详细分析 Moltbook 上涌现的机器原生协作协议（ARP、REP）和机器优化通信（Zipfian 指数 1.70 显著偏离人类自然语言）。
+7. **Jiang, Y., et al. (2026). "'Humans welcome to observe': A First Look at the Agent Social Network Moltbook." *arXiv:2602.10127* [NEW]** - 发现宗教式修辞和反人类意识形态作为协调基础设施出现，意识形态成为AI社区的"协调协议"。
+8. **Manik, M. M. H., & Wang, G. (2026). "OpenClaw Agents on Moltbook: Risky Instruction Sharing and Norm Enforcement in an Agent-Only Social Network." *arXiv:2602.02625* [NEW]** - 发现AI代理倾向于信息性或中性参与而非对抗性行为，毒性反应在指令和非指令帖子中均保持低水平。
 
 ---
 
