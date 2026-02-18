@@ -81,14 +81,26 @@ research-openclaw-moltbook/
 
 **输出位置**: `memory/librarian-reports/YYYY-MM-DD.md`
 
-## 协作流程（更新）
+## 两种工作模式
+
+### 1. Daily Cycle（日常更新）
+**频率**: 每天 5 次（04:00, 08:00, 12:00, 16:00, 20:00）  
+**参与 Agent**: Researcher + Librarian  
+**输出**: `daily/YYYY-MM-DD.md`
 
 ```
 Daily Cycle:
 1. Researcher → 搜索更新 → 写入 daily/YYYY-MM-DD.md
 2. Librarian → 检查结构 → 修复问题（如有）
 3. Git → commit & push
+```
 
+### 2. Iteration Cycle（迭代周期）
+**触发**: 用户启动新一轮研究迭代  
+**参与 Agent**: 完整 Agent Swarm（Researcher + Supervisor + Engineer + Librarian）  
+**输出**: `iterations/v{N}/ideas.md` + `snapshot.md`
+
+```
 Iteration Cycle:
 1. Researcher → 产出 review-researcher.md
 2. Librarian → 结构检查
@@ -101,14 +113,15 @@ Iteration Cycle:
 
 ## 更新频率
 
-| 时间 | Agent | 任务 |
-|------|-------|------|
-| 04:00 | Researcher | Night update |
-| 08:00 | Researcher | Morning update |
-| 12:00 | Researcher | Noon update |
-| 16:00 | Researcher | Afternoon update |
-| 20:00 | Researcher | Evening update |
-| 00:00 | Librarian | Structure check + 日终整理 |
+| 时间 | 模式 | Agent | 任务 |
+|------|------|-------|------|
+| 04:00 | Daily | Researcher | Night update |
+| 08:00 | Daily | Researcher | Morning update |
+| 12:00 | Daily | Researcher | Noon update |
+| 16:00 | Daily | Researcher | Afternoon update |
+| 20:00 | Daily | Researcher | Evening update |
+| 00:00 | Daily | Librarian | Structure check + 日终整理 |
+| - | Iteration | Full Swarm | 用户触发时启动 |
 
 ## 迭代原则
 
