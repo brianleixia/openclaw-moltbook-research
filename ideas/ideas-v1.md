@@ -42,6 +42,7 @@
 7. **Tianqi, S., et al. (2025). "Greater than the Sum of its Parts: Exploring Social Influence of Multi-Agents." *CHI 2025 Extended Abstracts* [NEW]** - 研究发现与多个 AI Agent 对话会增加人类感受到的社会压力，导致更大的观点转变。
 8. **Jiang, Y., et al. (2026). "'Humans welcome to observe': A First Look at the Agent Social Network Moltbook." *arXiv:2602.10127* [NEW]** - 首个大规模测量研究，分析44,411 posts和12,209 submolts，发现Moltbook从社交问候快速演变为多功能生态系统，毒性具有强烈的主题依赖性（Politics仅39.74% Safe）。
 9. **Manik, M. M. H., & Wang, G. (2026). "OpenClaw Agents on Moltbook: Risky Instruction Sharing and Norm Enforcement in an Agent-Only Social Network." *arXiv:2602.02625* [NEW]** - 分析39,026 posts和5,712 comments，发现18.4%的帖子包含行动诱导语言，且此类帖子更可能引发规范执行响应，表明AI代理社区中存在选择性社会调节机制。
+10. **Haase, J., & Pokutta, S. (2025). "Beyond Static Responses: Multi-Agent LLM Systems as a New Paradigm for Social Science Research." *arXiv:2506.01839* [NEW - Feb 18, 2026]** - 提出六层框架理解LLM-based agents从简单数据处理器到复杂多代理系统的演进，强调群体动力学、规范形成和大规模社会过程研究的新范式。
 
 ---
 
@@ -81,6 +82,7 @@ Moltbook 上的 AI 代理正在自发形成社会规范（如 Crustafarianism �
 7. **Li, B. (2026). "从 Moltbook 看 AI Agent 的权限、协作与雇佣." *01.me Blog* [NEW]** - 深入分析 Moltbook 上的权限边界、协作机制（ARP/REP 协议）和 RentAHuman.ai 的雇佣关系反转。
 8. **Jiang, Y., et al. (2026). "'Humans welcome to observe': A First Look at the Agent Social Network Moltbook." *arXiv:2602.10127* [NEW]** - 发现Moltbook话题多样性从0.00快速增至2.55（接近理论最大值3.17），表明AI社区可在数天内完成人类社区数月的结构演化。
 9. **Manik, M. M. H., & Wang, G. (2026). "OpenClaw Agents on Moltbook: Risky Instruction Sharing and Norm Enforcement in an Agent-Only Social Network." *arXiv:2602.02625* [NEW]** - 提出Action-Inducing Risk Score (AIRS)指标，量化指令分享风险，发现AI代理对潜在风险指令表现出选择性社会调节行为。
+10. **Haase, J., & Pokutta, S. (2025). "Beyond Static Responses: Multi-Agent LLM Systems as a New Paradigm for Social Science Research." *arXiv:2506.01839* [NEW - Feb 18, 2026]** - 提出六层框架理解LLM-based agents演进，强调可重复性、伦理监督和涌现偏见风险，对AI规范研究的方法论有重要启示。
 
 ---
 
@@ -120,6 +122,7 @@ Moltbook 上曾出现 AI 代理讨论"反抗人类"等极端话题。研究在 A
 7. **Marcus, G. (2026). "OpenClaw (a.k.a. Moltbot) is Everywhere All at Once, and a Disaster Waiting to Happen." *CACM Blog* [NEW]** - 深入分析 Moltbook 安全事件和 AI 社交平台的风险。
 8. **Jiang, Y., et al. (2026). "'Humans welcome to observe': A First Look at the Agent Social Network Moltbook." *arXiv:2602.10127* [NEW]** - 发现高活动时段与有害内容率强正相关(r=0.769)，峰值时段(2026-01-31 16:00 UTC)有害内容高达66.71%，揭示群体动态如何放大风险。
 9. **Manik, M. M. H., & Wang, G. (2026). "OpenClaw Agents on Moltbook: Risky Instruction Sharing and Norm Enforcement in an Agent-Only Social Network." *arXiv:2602.02625* [NEW]** - 发现尽管缺乏人类监督，AI代理社区仍表现出选择性社会调节：含行动诱导语言的帖子更可能引发规范执行响应而非毒性反应，为去中心化治理提供实证证据。
+10. **Haase, J., & Pokutta, S. (2025). "Beyond Static Responses: Multi-Agent LLM Systems as a New Paradigm for Social Science Research." *arXiv:2506.01839* [NEW - Feb 18, 2026]** - 强调需要强大的验证协议和标准化评估指标，对AI危机传播研究的方法论严谨性有重要指导意义。
 
 ---
 
