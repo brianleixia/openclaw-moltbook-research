@@ -2,6 +2,24 @@
 
 > 本项目专用的 Agent Swarm 协作规范
 
+## 项目路径规范
+
+**工作目录**: `/root/.openclaw/workspace/research-openclaw-moltbook`
+
+### 文件路径规则
+| 文件类型 | 正确路径 | 错误路径 |
+|----------|----------|----------|
+| 研究想法 | `ideas/ideas-v*.md` | `ideas-v*.md` (根目录) |
+| 灵感记录 | `memory/insights.md` | `memory-insights.md` (根目录) |
+| 论文笔记 | `papers/paper-notes.md` | `paper-notes.md` (根目录) |
+| 更新日志 | `memory/update-log.md` | `update-log.md` (根目录) |
+
+### 路径检查清单
+每次写入文件前，必须确认：
+1. ✅ 是否使用了正确的子目录？
+2. ✅ 文件名是否包含连字符 `-` 而不是斜杠 `/`？
+3. ✅ 是否在根目录创建了重复文件？
+
 ## 角色定义
 
 ### Researcher Agent
