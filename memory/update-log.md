@@ -1,31 +1,33 @@
-# 项目更新日志
+# Update Log
 
 ## 更新频率
-**每日 4 次自动更新**（每 8 小时一次）
+**每日 6 次自动更新**（每 4 小时一次）
 
-| 时间 | 任务 | 重点 |
-|------|------|------|
-| 08:00 | Morning Update | 搜索新论文，更新 references |
-| 16:00 | Noon Update | 社区动态，Moltbook/OpenClaw 现象 |
-| 00:00 | Evening Update | 学术论文整合，ideas 优化 |
-| 08:00 (+1) | Night Update | 日终整理，明日计划 |
+| 时间 | Agent | 任务 |
+|------|-------|------|
+| 04:00 | Researcher | Night update |
+| 08:00 | Researcher | Morning update |
+| 12:00 | Researcher | Noon update |
+| 16:00 | Researcher | Afternoon update |
+| 20:00 | Researcher | Evening update |
+| 00:00 | Librarian | 结构检查 + 日终整理 |
 
-## 2026-02-17
+## 版本历史
 
-### 初始化
-- ✅ 创建项目结构
+### v2 - 2026-02-18
+**结构重构**
+- ✅ 新文件夹结构：iterations/ + daily/
+- ✅ 新增 Librarian Agent
+- ✅ 更新频率：4次/天 → 6次/天
+- ✅ 修复 memory/ 文件混乱问题
+
+### v1 - 2026-02-17
+**项目初始化**
+- ✅ 创建项目
 - ✅ 第一轮 5 个 research ideas
 - ✅ 配置 GitHub 仓库
-- ✅ 设置每日 4 次自动更新
-- ✅ 配置 Git credential helper
-
-### Ideas v1 列表
-1. The Observer Effect in Human-AI Social Networks
-2. Emergent Social Norms in AI-Only Communities
-3. The Bystander Effect in AI-Mediated Crisis Communication
-4. Multi-Agent Persona Consistency and Drift
-5. The Language of AI: Emergent Communication in Multi-Agent Systems
+- ✅ 设置自动更新
 
 ---
 
-*自动生成，请勿手动修改*
+*自动生成*
