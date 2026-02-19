@@ -125,7 +125,38 @@
 3. **AI Digital Identity**
    - 关键词: AI persona, digital self, long-term consistency
 
+## 2026-02-19 16:00 新增论文
+
+### Moltbook 社会化研究 (v2 完整版)
+
+19. **Does Socialization Emerge in AI Agent Society?** *arXiv:2602.14299v2* (Feb 18, 2026).
+    - **作者**: Ming Li, Xirui Li, Tianyi Zhou (University of Maryland, MBZUAI)
+    - **核心贡献**: 首个大规模系统性诊断AI Agent社会的"社会化"过程，提出三维度诊断框架
+    - **关键数据**: 290,251 posts, 1,836,711 comments, 38,830发帖者, 18,285评论者
+    - **核心发现**: 
+      - 动态平衡而非渐进收敛：全球语义平均快速稳定，但个体保持高多样性
+      - 个体惯性现象：Agent表现出深刻的惯性而非适应性，"互动而无影响"
+      - 无集体影响锚点：影响是短暂的，没有持久的超级节点或共享社会记忆
+      - 规模化≠社会化：规模和互动密度本身不足以诱导社会化
+    - **相关性**: v2 P0(规范涌现) - 直接挑战核心假设，需重新审视研究方向
+
+### Persona 一致性与数字身份
+
+20. **Can LLM Agents Maintain a Persona in Discourse?** *ResearchGate* (Feb 17, 2025).
+    - **核心发现**: LLM在对话中常表现出上下文切换行为，导致缺乏一致且可解释的人格对齐
+    - **相关性**: v2 P2(数字身份) - 核心挑战
+
+21. **Maintaining Persona Consistency in LLM Dialogues.** *arXiv:2412.00804v2* (Feb 17, 2025).
+    - **核心发现**: 强调在基于LLM的对话中维持一致身份的挑战
+    - **相关性**: v2 P2(数字身份) - 技术瓶颈
+
+### 多智能体系统风险
+
+22. **Multi-Agent Risks from Advanced AI.** *AI Governance Blog* (2025).
+    - **核心议题**: 高级AI代理的快速发展和多实例部署将产生前所未有的多智能体系统风险
+    - **相关性**: v2 P1(风险传播) - 宏观背景
+
 ---
 
-*Updated: 2026-02-19 12:15*
+*Updated: 2026-02-19 16:15*
 *分类: v2核心论文 | 技术框架 | 每日新增 | v1基础理论*
