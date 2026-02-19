@@ -65,6 +65,42 @@
 13. **CASTER: Context-Aware Task Routing.**
     - 多智能体编排的成本-性能优化
 
+## 2026-02-19 12:00 新增论文
+
+### AI社会化与规范涌现
+
+13. **Does Socialization Emerge in AI Agent Society?** *arXiv:2602.14299v1* (Feb 15, 2026).
+    - **核心贡献**: 首个大规模系统性诊断Moltbook的AI Socialization过程
+    - **关键发现**: 动态平衡而非收敛；个体惯性；无集体锚点；规模化≠社会化
+    - **相关性**: v2 P0(规范涌现) - 挑战核心假设
+
+14. **Emergent Social Conventions in LLM Populations.** *Science Advances* (2025).
+    - **核心贡献**: 实验室条件下LLM群体可自发产生社会规范
+    - **关键发现**: 集体偏见涌现；临界点动力学(committed minority可翻转规范)
+    - **相关性**: v2 P0(规范涌现) - 与Moltbook实证形成对比
+
+15. **Multi-Agent Systems Shape Social Norms for Prosocial Behavior.** *ACM* (2026).
+    - **核心贡献**: 多智能体系统建立"虚拟社会规范"促进亲社会行为
+    - **相关性**: v2 P0(规范涌现) - 规范干预应用
+
+### 价值多样性与集体智能
+
+16. **On the Dynamics of Multi-Agent LLM Communities Driven by Value Diversity.** *arXiv:2512.10665v1* (Dec 2025).
+    - **机构**: Stanford, Microsoft Research Asia
+    - **核心贡献**: 价值多样性塑造AI社区集体行为
+    - **关键发现**: 多样性增强稳定性但边际收益递减；多价值Agent形成更整合网络
+    - **相关性**: v2 P2(数字身份) - 新研究维度
+
+### 自组织与Persona一致性
+
+17. **Self-Organizing LLM Teams.** *Emergent Mind* (Feb 8, 2026).
+    - **核心发现**: 整合性妥协 vs 认知服从权衡；团队规模越大协同差距越大
+    - **相关性**: v2 P0/P2 - 解释"互动而无影响"现象
+
+18. **Consistently Simulating Human Personas with Multi-Turn RL.** *NeurIPS 2025*.
+    - **核心贡献**: 三种自动指标评估persona一致性，RL微调降低不一致性55%
+    - **相关性**: v2 P2(数字身份) - 技术路径
+
 ## 先前记录 (v1-initial)
 
 ### 基础理论
@@ -91,5 +127,5 @@
 
 ---
 
-*Updated: 2026-02-19*
+*Updated: 2026-02-19 12:15*
 *分类: v2核心论文 | 技术框架 | 每日新增 | v1基础理论*
