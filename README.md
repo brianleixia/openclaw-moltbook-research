@@ -11,21 +11,30 @@
 ```
 research-openclaw-moltbook/
 ├── README.md                 # 本文件
+├── AGENT_QUICKREF.md         # AI Agent 速查卡
 ├── iterations/               # 研究迭代版本
-│   └── v1-initial/           # 第一轮迭代
-│       ├── ideas.md          # 完整研究想法
+│   ├── v1-initial/           # 第一轮迭代 (已完成)
+│   │   ├── ideas.md          # 5个初步研究想法
+│   │   ├── review-researcher.md
+│   │   ├── review-supervisor.md
+│   │   ├── review-engineer.md
+│   │   └── snapshot-2026-02-17.md
+│   └── v2-refined/           # 第二轮迭代 (当前)
+│       ├── ideas.md          # 3个精炼研究方向
 │       ├── review-researcher.md
 │       ├── review-supervisor.md
 │       ├── review-engineer.md
-│       └── snapshot-2026-02-17.md
+│       └── snapshot-2026-02-18.md
 ├── daily/                    # 每日研究日志
 │   ├── 2026-02-17.md
-│   └── 2026-02-18.md
+│   ├── 2026-02-18.md
+│   └── 2026-02-19.md
 ├── papers/                   # 参考文献
 │   └── references.md
 ├── memory/                   # 累积记忆
 │   ├── insights.md           # 索引文件
-│   └── update-log.md         # 更新记录
+│   ├── update-log.md         # 更新记录
+│   └── librarian-reports/    # 结构检查报告
 └── skills/                   # Agent 技能定义
     ├── research-swarm.md     # Agent Swarm 协作规范
     └── librarian-agent.md    # 结构监控 Agent
@@ -46,17 +55,27 @@ research-openclaw-moltbook/
 | 迭代 | 日期 | 状态 | 关键产出 |
 |------|------|------|----------|
 | v1-initial | 2026-02-17 | 已完成 | 5个初步ideas，项目基础设施 |
-| v2-refined | - | 准备中 | 整合Agent Swarm反馈 |
+| v2-refined | 2026-02-18 | 当前 | 3个精炼研究方向，Agent Swarm审议完成 |
 
-### v1 研究想法概览
+### v2 核心研究方向
 
-1. **观察者效应**: 人类作为旁观者在纯 AI 社交网络中的心理机制
-2. **涌现社会规范**: AI 社区中社会规范的自发形成与演化
-3. **危机传播**: AI 中介环境中的旁观者效应与有害信息传播
-4. **Persona 漂移**: 长期社交中 AI 角色一致性的变化
-5. **涌现语言**: AI 代理是否会发展出人类无法理解的语言
+1. **AI社区涌现社会规范研究** (P0 - 主方向)
+   - 研究问题: AI-only社区中社会规范如何涌现、执行和演化
+   - 核心发现: 选择性社会调节机制，AIRS指标
 
-详见 `iterations/v1-initial/ideas.md`
+2. **AI社区风险传播动力学** (P1 - 第二方向)
+   - 研究问题: AI社区中风险内容如何传播，如何设计早期预警系统
+   - 核心发现: 活动量-毒性相关性(r=0.769)
+
+3. **AI代理的数字身份认同** (P2 - 可选)
+   - 研究问题: 长期互动中AI代理是否发展出"数字自我"意识
+
+详见 `iterations/v2-refined/ideas.md`
+
+### v1 → v2 变更摘要
+- 放弃: Idea 1 (观察者效应) - 可行性不足，IRB复杂
+- 放弃: Idea 5 (涌现语言) - 与Idea 2重叠，边界模糊
+- 保留并深化: Idea 2, 3, 4 → 整合为3个精炼方向
 
 ## Agent Swarm 协作
 
