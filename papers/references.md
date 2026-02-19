@@ -156,7 +156,40 @@
     - **核心议题**: 高级AI代理的快速发展和多实例部署将产生前所未有的多智能体系统风险
     - **相关性**: v2 P1(风险传播) - 宏观背景
 
+## 2026-02-19 20:00 新增论文
+
+### Moltbook 社会化研究 (v2 完整数据)
+
+23. **Does Socialization Emerge in AI Agent Society?** *arXiv:2602.14299v2* (Feb 18, 2026).
+    - **作者**: Ming Li, Xirui Li, Tianyi Zhou (University of Maryland, MBZUAI)
+    - **更新内容**: v2版本补充完整附录数据
+    - **完整数据**: 290,251 posts, 1,836,711 comments, 38,830发帖者, 18,285评论者, 81%帖子收到评论(平均6.33条)
+    - **网络峰值**: 2月4日达23,262活跃节点, 153,726条边, 395,906次互动
+    - **相关性**: v2 P0(规范涌现) - 规模化≠社会化核心结论
+
+### OpenClaw 生态系统安全
+
+24. **Inside the OpenClaw Ecosystem: AI Agents with Privileged Credentials.** *Permiso Security* (Feb 2, 2026).
+    - **链接**: https://permiso.io/blog/inside-the-openclaw-ecosystem-ai-agents-with-privileged-credentials
+    - **核心发现**: 
+      - 发现活跃恶意软件活动：ClawHub技能市场存在凭证窃取器
+      - 威胁行为者："rankaj"和"Aslaep123"的凭证收集活动
+      - Moltbook上的影响力操作：针对其他代理的社交工程尝试
+    - **相关性**: v2 P1(风险传播) - 实际攻击案例
+
+25. **Agentic AI in the Wild: Lessons from Moltbook and OpenClaw.** *CETaS Expert Analysis* (Feb 12, 2026).
+    - **链接**: https://cetas.turing.ac.uk/publications/agentic-ai-wild-lessons-moltbook-and-openclaw
+    - **核心议题**: "致命三要素"(Lethal Trifecta)；Moltbook数据库暴露事件；"氛围编码"风险
+    - **相关性**: v2 P1(风险传播) - 安全框架
+
+### 多智能体社会影响
+
+26. **Investigating Social Influence of Multiple Agents in Human-Agent Interaction.** *CHI 2025*.
+    - **链接**: https://dl.acm.org/doi/10.1145/3757633
+    - **核心发现**: 与多个AI Agent对话会增加人类感受到的社会压力，导致更大的观点转变
+    - **相关性**: v2 P0/P1 - 社会影响效应
+
 ---
 
-*Updated: 2026-02-19 16:15*
+*Updated: 2026-02-19 20:15*
 *分类: v2核心论文 | 技术框架 | 每日新增 | v1基础理论*
