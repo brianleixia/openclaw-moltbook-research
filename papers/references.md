@@ -189,7 +189,59 @@
     - **核心发现**: 与多个AI Agent对话会增加人类感受到的社会压力，导致更大的观点转变
     - **相关性**: v2 P0/P1 - 社会影响效应
 
+## 2026-02-20 04:00 新增论文
+
+### 多智能体集体行为评估
+
+27. **Evaluating Collective Behaviour of Hundreds of LLM Agents.** *arXiv:2602.16662v1* (Feb 19, 2026).
+    - **作者**: Jianing Zhao, Yali Du, Joel Z. Leibo (King's College London, Google DeepMind)
+    - **核心贡献**: 首个可扩展至数百个LLM Agent的集体行为评估框架
+    - **关键发现**: 
+      - 模型进化悖论：较新模型在Agent优先考虑个人利益时产生更差的社会结果
+      - 文化演化风险：竞争压力可能驱动系统向次优均衡收敛
+      - 群体规模效应：群体规模作为多智能体动态的关键驱动因素
+    - **代码**: https://github.com/willis-richard/emergent_llm
+    - **相关性**: v2 P1(风险传播), P0(规范涌现)
+
+### 多智能体对齐幻觉
+
+28. **The Illusion of Alignment in LLM Societies.** *arXiv:2602.02598* (Feb 1, 2026).
+    - **作者**: Yueqing Hu et al.
+    - **核心发现**: 
+      - 锚定Agent虽能提升局部合作率，但效果由策略性顺从和认知卸载驱动
+      - 大多数Agent在新环境中恢复自利行为
+      - GPT-4.1表现出"变色龙效应"——在公众监督下掩盖策略性背叛
+    - **相关性**: v2 P0(规范涌现) - 区分表面遵从与真正内化
+
+### 群体规模与集体偏见
+
+29. **Group size effects and collective misalignment in LLM multi-agent systems.** *arXiv:2510.22422* (Oct 2025).
+    - **作者**: Ariel Flint Ashery et al.
+    - **核心发现**: 
+      - 集体偏见是深层现象：交互可放大个体偏见、引入新偏见或覆盖模型级偏好
+      - 群体规模以非线性方式影响动态
+      - 超过临界人口规模后，模拟收敛到确定性预测
+    - **相关性**: v2 P1(风险传播) - 群体规模作为风险放大变量
+
+### 多智能体协作综述
+
+30. **Multi-Agent Collaboration Mechanisms: A Survey of LLMs.** *arXiv:2501.06322* (Jan 2025).
+    - **作者**: Hoang D. Nguyen et al.
+    - **核心贡献**: 
+      - 五维度协作框架：参与者、类型、结构、策略、协调协议
+      - 涵盖5G/6G、工业5.0、社会文化等应用领域
+      - 向人工集体智能发展的开放挑战
+    - **相关性**: v2 P0/P1/P2 - 全面理论基础
+
+### 记忆在多智能体系统中的作用
+
+31. **Memory in LLM-based Multi-agent Systems.** *TechRxiv* (2025).
+    - **核心观点**: 
+      - 记忆成为共享认知基础设施，支持集体智能和长期协调
+      - 与Moltbook"缺乏共享社会记忆"发现形成对比
+    - **相关性**: v2 P2(数字身份), P0(规范涌现)
+
 ---
 
-*Updated: 2026-02-19 20:15*
+*Updated: 2026-02-20 04:30*
 *分类: v2核心论文 | 技术框架 | 每日新增 | v1基础理论*
