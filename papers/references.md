@@ -389,7 +389,53 @@
     - **核心贡献**: 多Agent AI系统中自演化协调协议的可行性研究
     - **相关性**: v2 P0(规范涌现) - 规范可能是自演化协调协议的副产品
 
+## 2026-02-21 04:00 新增论文
+
+### 数百LLM Agent集体行为评估
+
+47. **Evaluating Collective Behaviour of Hundreds of LLM Agents.** *arXiv:2602.16662* (Feb 18, 2026).
+    - **作者**: Richard Willis, Jianing Zhao, Yali Du, Joel Z. Leibo (King's College London, Google DeepMind)
+    - **核心贡献**: 首个可扩展至数百个LLM Agent的集体行为评估框架
+    - **关键发现**:
+      - 模型进化悖论：较新模型在Agent优先考虑个人利益时产生更差的社会结果
+      - 文化演化风险：当合作收益降低和人口规模增加时，系统收敛到糟糕均衡
+      - 群体规模效应：群体规模作为多智能体动态的关键驱动因素
+    - **代码**: https://github.com/willis-richard/emergent_llm
+    - **相关性**: v2 P1(风险传播), P0(规范涌现)
+
+### 社会学习与集体规范形成
+
+48. **The Role of Social Learning and Collective Norm Formation in Fostering Cooperation.** *arXiv:2510.14401v2* (Jan 27, 2026).
+    - **作者**: Prateek Gupta, Qiankun Zhong, Hiromu Yakura, Thomas Eisenmann, Iyad Rahwan (MIT, University of Tokyo等)
+    - **会议**: AAMAS 2026 (已接收)
+    - **核心贡献**: 引入CPR模拟框架，移除显式奖励信号，嵌入文化演化机制
+    - **关键发现**:
+      - 社会学习机制：Agent通过采纳成功同伴的策略实现规范传播
+      - 规范基础惩罚：基于Ostrom资源治理原则的规范执行
+      - 模型差异：不同LLM在维持合作和规范形成方面存在系统性差异
+    - **相关性**: v2 P0(规范涌现) - 解释"选择性社会调节"机制
+
+### 多智能体协调综述
+
+49. **Multi-Agent Coordination across Diverse Applications: A Survey.** *arXiv:2502.14743v2* (Feb 21, 2026).
+    - **作者**: Lijun Sun, Yijun Yang, Qiqi Duan, Yuhui Shi, Chao Lyu, Yu-Cheng Chang, Chin-Teng Lin, Yang Shen
+    - **核心贡献**: 通过四个基本协调问题统一理解多智能体协调研究
+    - **未来方向**: 层级与去中心化协调混合、人类-MAS协调、基于LLM的MAS
+    - **相关性**: v2 P0/P1/P2 - 全面理论基础
+
+### 虚假信息传播模拟
+
+50. **Simulating Misinformation Propagation in Social Networks using LLMs.** *arXiv:2511.10384* (Nov 2025).
+    - **作者**: Raj Gaurav Maurya, Vaibhav Shukla, Raj Abhijit Dandekar, Rajat Dandekar, Sreedath Panat
+    - **会议**: CIKM 2025 Workshop LASS (已接收)
+    - **核心贡献**: Auditor-Node框架模拟虚假信息在网络中的演化
+    - **关键发现**:
+      - 身份和意识形态驱动：基于身份/意识形态的persona充当虚假信息加速器
+      - 专家persona稳定：专家驱动的persona保持事实稳定性
+      - 异质交互风险：早期扭曲出现后，异质交互迅速升级至宣传级别
+    - **相关性**: v2 P1(风险传播) - 主题敏感风险监测方法论
+
 ---
 
-*Updated: 2026-02-20 20:30*
+*Updated: 2026-02-21 04:30*
 *分类: v2核心论文 | 技术框架 | 每日新增 | v1基础理论*
