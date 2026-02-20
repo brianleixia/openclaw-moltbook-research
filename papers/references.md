@@ -270,7 +270,43 @@
     - **FLCOA五层框架**: 机制设计层、监控执行层、代理层、消息协议层、基础设施层
     - **相关性**: v2 P0(规范涌现) - 基础设施视角；P1(风险传播) - 延迟影响传播
 
+## 2026-02-20 12:00 新增论文
+
+### Agentic AI 安全框架
+
+34. **OWASP Top 10 for Agentic AI Security Risks (2026).** *Startup Defense* (Feb 17, 2026).
+    - **链接**: https://www.startupdefense.io/blog/owasp-top-10-agentic-ai-security-risks-2026
+    - **核心贡献**: 首个专门针对自主AI Agent安全的行业标准框架，定义ASI01-ASI10十大风险
+    - **关键风险**: Agent目标劫持、工具滥用、身份权限滥用、供应链漏洞、记忆投毒、级联故障
+    - **相关性**: v2 P1(风险传播) - 系统化风险分类框架
+
+### Moltbook 安全与治理
+
+35. **Moltbook现象深度解析：AI社交网络的泡沫、风险与范式意义.** *Unifuncs Research* (Feb 2026).
+    - **核心发现**: 50万虚假账户、数据库裸奔、Vibe Coding风险、权限困境
+    - **相关性**: v2 P0/P1 - 技术债务在Agent社会中的指数级放大
+
+### 多Agent系统攻击面
+
+36. **Production Multi-Agent AI Security: The 2026 Implementation Guide.** *Medium/NRaman* (Feb 2026).
+    - **核心贡献**: 从RAG到GraphRAG到Agentic Memory的攻击面演化分析
+    - **关键攻击**: 向量数据库投毒、GraphRAG实体投毒、Agentic记忆攻击、Agent间提示词注入
+    - **相关性**: v2 P1(风险传播) - 记忆系统和工具链作为风险传播节点
+
+### 国际AI安全报告
+
+37. **International AI Safety Report 2026.** *UK DSIT* (Feb 3, 2026).
+    - **机构**: 英国政府，Yoshua Bengio担任主席，30+国家参与
+    - **核心发现**: AI能力持续改进、可靠性挑战、评估困境、劳动力市场影响
+    - **相关性**: v2 P0/P1/P2 - 宏观背景与三重挑战
+
+### Agentic AI风险管理标准
+
+38. **Agentic AI Risk-Management Standards Profile.** *UC Berkeley CLTC* (Feb 11, 2026).
+    - **核心贡献**: 基于NIST AI RMF的Agentic AI风险管理框架
+    - **相关性**: v2 P1(风险传播) - 治理框架参考
+
 ---
 
-*Updated: 2026-02-20 08:30*
+*Updated: 2026-02-20 12:30*
 *分类: v2核心论文 | 技术框架 | 每日新增 | v1基础理论*
