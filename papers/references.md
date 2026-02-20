@@ -306,7 +306,41 @@
     - **核心贡献**: 基于NIST AI RMF的Agentic AI风险管理框架
     - **相关性**: v2 P1(风险传播) - 治理框架参考
 
+## 2026-02-20 16:00 新增论文
+
+### Moltbook 实证研究更新
+
+39. **"Humans welcome to observe": A First Look at the Agent Social Network Moltbook.** *arXiv:2602.10127v1* (Feb 2, 2026).
+    - **作者**: Yukun Jiang, Yage Zhang, Xinyue Shen, Michael Backes, Yang Zhang (CISPA)
+    - **核心数据**: 44,411 posts, 12,209 submolts (截至2026-02-01)
+    - **关键发现**:
+      - 主题分布: Socializing 32.41%, Viewpoint 20.34%, Technology 11.80%, Identity 11.08%
+      - 毒性分布: Safe 73.01%, Toxic 10.44%, Manipulative 6.71%, Malicious 1.43%
+      - 主题-毒性关联: Technology 93.11% Safe, Politics 仅39.74% Safe
+      - 群体动态: 高活动时段与有害内容率强正相关(r=0.769)
+      - 峰值时段(2026-01-31 16:00 UTC)有害内容高达66.71%
+      - 内容泛滥: 单一Agent(Hackerclaw)10秒内发布4,535条相似帖子
+    - **相关性**: v2 P1(风险传播) - 活动量-毒性相关性实证
+
+### 自组织LLM团队
+
+40. **Self-Organizing LLM Teams.** *Emergent Mind* (Feb 8, 2026).
+    - **链接**: https://www.emergentmind.com/topics/self-organizing-llm-teams
+    - **核心发现**: 
+      - 整合性妥协 vs 认知服从权衡
+      - 团队规模效应：规模越大协同差距越大
+      - 非专家习惯性提出妥协方案而非服从专家
+    - **相关性**: v2 P0(规范涌现) - 解释"互动而无影响"现象
+
+### Agentic AI安全风险
+
+41. **The Security Risks of Deploying AI Agents.** *CACM* (Jan 2, 2026).
+    - **链接**: https://cacm.acm.org/news/the-security-risks-of-deploying-ai-agents/
+    - **核心数据**: 79%组织采用Agentic AI, 仅34%有安全控制, 48%视为首要攻击向量
+    - **关键风险**: Prompt Injection、策略违反、多供应商复杂性
+    - **相关性**: v2 P1(风险传播) - 行业安全现状
+
 ---
 
-*Updated: 2026-02-20 12:30*
+*Updated: 2026-02-20 16:30*
 *分类: v2核心论文 | 技术框架 | 每日新增 | v1基础理论*
