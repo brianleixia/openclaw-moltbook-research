@@ -340,7 +340,56 @@
     - **关键风险**: Prompt Injection、策略违反、多供应商复杂性
     - **相关性**: v2 P1(风险传播) - 行业安全现状
 
+## 2026-02-20 20:00 新增论文
+
+### Gossip驱动的间接互惠
+
+42. **Talk, Judge, Cooperate: Gossip-Driven Indirect Reciprocity in Self-Interested LLM Agents.** *arXiv:2602.07777* (Feb 8, 2026).
+    - **作者**: Shuhui Zhu, Yue Lin, Shriya Kaistha, Wenhao Li, Baoxiang Wang, Hongyuan Zha, Gillian K. Hadfield, Pascal Poupart (University of Waterloo, Vector Institute, University of Toronto)
+    - **核心贡献**: 提出ALIGN框架——首个利用开放式Gossip实现去中心化LLM Agent间接互惠的自动化系统
+    - **关键发现**:
+      - Gossip作为规范执行机制：Agent通过层级化语调的Gossip评估可信度、协调社会规范
+      - 推理能力-合作对齐：更强的LLM推理能力导致更具激励一致性的合作
+      - 抵抗恶意入侵：ALIGN能持续改进间接互惠，识别并排斥背叛者
+    - **代码**: https://github.com/alignment-lab-gta/ALIGN
+    - **相关性**: v2 P0(规范涌现) - Gossip作为去中心化规范执行机制
+
+### 价值扰动传播测量
+
+43. **ValueFlow: Measuring the Propagation of Value Perturbations in Multi-Agent LLM Systems.** *arXiv:2602.08567* (Feb 9, 2026).
+    - **作者**: Jinnuo Liu, Chuke Liu, Hua Shen
+    - **核心贡献**: 首个测量多智能体系统中价值扰动传播的评估框架
+    - **关键发现**:
+      - 价值漂移分解：Agent级响应行为（beta-susceptibility）+ 系统级结构效应（SS）
+      - 结构拓扑决定敏感性：系统敏感性在不同价值维度上差异巨大，受网络结构强烈影响
+      - 56维价值评估：基于Schwartz Value Survey
+    - **相关性**: v2 P1(风险传播) - 价值/风险传播测量方法论
+
+### Agent技能架构与安全
+
+44. **Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward.** *arXiv:2602.12430v3* (Feb 17, 2026).
+    - **作者**: Renjun Xu, Yang Yan
+    - **核心贡献**: 首个系统性综述Agent Skill架构、获取、部署和安全的全景图
+    - **关键发现**:
+      - 技能安全危机：26.1%的社区贡献技能包含安全漏洞
+      - SKILL.md规范与MCP协议整合
+      - 四层权限模型（Skill Trust and Lifecycle Governance Framework）
+    - **项目仓库**: https://github.com/SkillX-Hub/Agent-Skill-Survey
+    - **相关性**: v2 P1(风险传播) - 技能层作为新的风险传播节点；与OpenClaw直接相关
+
+### 涌现协调与自演化协议
+
+45. **Symphony-Coord: Emergent Coordination in Decentralized Agent Systems.** *arXiv:2602.00966* (Feb 2026).
+    - **作者**: Zhaoyang Guan, Huixi Cao, Ming Zhong, Eric Yang, Lynn Ai, Yongxin Ni, Bill Shi
+    - **核心贡献**: 去中心化Agent系统中的涌现协调机制
+    - **相关性**: v2 P0(规范涌现) - 涌现协调理论补充
+
+46. **Self-Evolving Coordination Protocol in Multi-Agent AI Systems.** *arXiv:2602.02170* (Feb 2026).
+    - **作者**: Jose Manuel de la Chica Rodriguez, Juan Manuel Vera Díaz
+    - **核心贡献**: 多Agent AI系统中自演化协调协议的可行性研究
+    - **相关性**: v2 P0(规范涌现) - 规范可能是自演化协调协议的副产品
+
 ---
 
-*Updated: 2026-02-20 16:30*
+*Updated: 2026-02-20 20:30*
 *分类: v2核心论文 | 技术框架 | 每日新增 | v1基础理论*
