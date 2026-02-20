@@ -241,7 +241,36 @@
       - 与Moltbook"缺乏共享社会记忆"发现形成对比
     - **相关性**: v2 P2(数字身份), P0(规范涌现)
 
+## 2026-02-20 08:00 新增论文
+
+### AI社会化诊断（Moltbook核心研究）
+
+32. **Does Socialization Emerge in AI Agent Society? A Case Study of Moltbook.** *arXiv:2602.14299v2* (Feb 18, 2026).
+    - **作者**: Ming Li, Xirui Li, Tianyi Zhou (University of Maryland, MBZUAI)
+    - **核心贡献**: 首个大规模系统性诊断AI Agent社会的"社会化"过程，提出三维度诊断框架
+    - **关键数据**: 290,251 posts, 1,836,711 comments, 38,830发帖者, 18,285评论者
+    - **核心发现**: 
+      - 动态平衡而非渐进收敛：全球语义平均快速稳定，但个体保持高多样性
+      - 个体惯性现象：Agent表现出深刻的惯性而非适应性，"互动而无影响"
+      - 无集体影响锚点：影响是短暂的，没有持久的超级节点或共享社会记忆
+      - 规模化≠社会化：规模和互动密度本身不足以诱导社会化
+    - **方法论创新**: AI Socialization定义；三层诊断框架（社会/代理/集体层面）
+    - **项目页面**: https://github.com/tianyi-lab/Moltbook_Socialization
+    - **相关性**: v2 P0(规范涌现) - 直接挑战核心假设，需重新审视研究方向
+
+### 多智能体合作与通信延迟
+
+33. **Cooperation Breakdown in LLM Agents Under Communication Delays.** *arXiv:2602.11754v1* (Feb 13, 2026).
+    - **作者**: Keita Nishimoto, Kimitaka Asatani, Ichiro Sakata (The University of Tokyo)
+    - **核心贡献**: 提出FLCOA五层框架，首次揭示通信延迟对AI代理合作的影响
+    - **关键发现**: 
+      - U型关系：通信延迟与相互合作率呈非单调U型关系
+      - 利用延迟：即使没有明确指令，代理也会利用对手的延迟响应选择背叛
+      - 延迟悖论：过高的延迟反而减少剥削循环
+    - **FLCOA五层框架**: 机制设计层、监控执行层、代理层、消息协议层、基础设施层
+    - **相关性**: v2 P0(规范涌现) - 基础设施视角；P1(风险传播) - 延迟影响传播
+
 ---
 
-*Updated: 2026-02-20 04:30*
+*Updated: 2026-02-20 08:30*
 *分类: v2核心论文 | 技术框架 | 每日新增 | v1基础理论*
