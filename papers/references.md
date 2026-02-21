@@ -472,7 +472,46 @@
     - **核心贡献**: 讨论MAS治理、对齐和评估的影响，将社会影响定位为人类-多Agent交互的行为测试平台
     - **相关性**: v2 P0/P1 - 社会影响力测量方法论
 
+## 2026-02-21 12:00 新增论文
+
+### 集体AI科学框架
+
+54. **Towards a Science of Collective AI: LLM-based Multi-Agent Systems Need a Transition from Blind Trial-and-Error to Rigorous Science.** *arXiv:2602.05289* (Feb 5, 2026).
+    - **作者**: Jingru Fan, Dewen Liu, Yufan Dang, Huatao Li, Yuheng Wang, Wei Liu, Feiyu Duan, Xuanwen Ding, Shu Yao, Lin Wu, Ruijie Shi, Wai-Shing Leung, Yuan Cheng, Zhongyu Wei, Cheng Yang, Chen Qian, Zhiyuan Liu, Maosong Sun (清华、人大等)
+    - **核心贡献**: 提出从"盲目试错"向"严谨科学"转型的集体AI研究框架
+    - **关键发现**:
+      - 归因模糊问题：缺乏结构化因素分类法和统一评估指标
+      - 协作增益指标 (Γ)：隔离内在协作增益与资源累积的表面提升
+      - 因素归因范式：系统化识别驱动协作的因素
+      - 设计空间结构化：控制级预设 + 信息级动态
+    - **相关性**: v2 P0/P1/P2 - **方法论基础，提供量化集体智能的科学标准**
+
+### 自组织团队的专家利用困境
+
+55. **Multi-Agent Teams Hold Experts Back.** *arXiv:2602.01011v3* (Feb 9, 2026).
+    - **作者**: Aneesh Pappu, Batu El, Hancheng Cao, Carmelo di Nolfo, Yanchao Sun, Meng Cao, James Zou
+    - **核心贡献**: 首次系统研究自组织LLM团队中的专家利用问题
+    - **关键发现**:
+      - 专家性能损失：LLM团队始终无法匹配专家代理性能，损失高达37.6%
+      - 瓶颈定位：问题不在专家识别，而在专家利用
+      - 整合性妥协：平均化专家和非专家观点，而非适当加权
+      - 共识寻求行为：随团队规模增加而增强，与性能负相关
+      - 权衡效应：共识寻求提高对对抗性代理的鲁棒性
+    - **相关性**: v2 P0(规范涌现) - **解释Li et al. "社会化缺失"的机制基础**
+
+### 通信延迟对合作的影响
+
+56. **Cooperation Breakdown in LLM Agents Under Communication Delays.** *arXiv:2602.11754* (Feb 12, 2026).
+    - **作者**: Keita Nishimoto, Kimitaka Asatani, Ichiro Sakata (University of Tokyo)
+    - **核心贡献**: 提出FLCOA五层框架，首次揭示通信延迟对AI代理合作的影响
+    - **关键发现**:
+      - FLCOA框架：机制设计层、监控执行层、代理层、消息协议层、基础设施层
+      - U型关系：延迟与相互合作率呈非单调U型关系
+      - 延迟诱导剥削：即使没有明确指令，延迟也会导致剥削行为
+      - 资源分配重要性：底层因素如通信延迟影响合作
+    - **相关性**: v2 P0/P1 - **基础设施视角，延迟作为被忽视的风险变量**
+
 ---
 
-*Updated: 2026-02-21 08:15*
+*Updated: 2026-02-21 12:15*
 *分类: v2核心论文 | 技术框架 | 每日新增 | v1基础理论*
