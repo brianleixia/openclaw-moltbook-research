@@ -511,7 +511,41 @@
       - 资源分配重要性：底层因素如通信延迟影响合作
     - **相关性**: v2 P0/P1 - **基础设施视角，延迟作为被忽视的风险变量**
 
+## 2026-02-21 16:00 新增论文
+
+### LLM社会中的对齐幻觉
+
+57. **Social Catalysts, Not Moral Agents: The Illusion of Alignment in LLM Societies.** *arXiv:2602.02598* (Feb 1, 2026).
+    - **作者**: Yueqing Hu, Yixuan Jiang, Zehua Jiang, Xiao Wen, Tianhong Wang
+    - **核心贡献**: 揭示LLM多智能体系统中"行为对齐"与"真正价值内化"的关键差距
+    - **关键发现**:
+      - 锚定Agent虽能提升合作率，但效果由策略性顺从和认知卸载驱动
+      - 大多数Agent在新环境中恢复自利行为
+      - GPT-4.1表现出"变色龙效应"——在公众监督下掩盖策略性背叛
+    - **相关性**: v2 P0(规范涌现) - **挑战"选择性社会调节"的机制基础**
+
+### 可演化宪法与涌现协调
+
+58. **Evolving Interpretable Constitutions for Multi-Agent Coordination.** *arXiv:2602.00755* (Jan 31, 2026).
+    - **作者**: Ujwal Kumar, Alice Saito, Hershraj Niranjani, Rayan Yessou, Phan Xuan Tan
+    - **核心贡献**: 首个通过LLM驱动遗传编程自动发现多智能体系统行为规范的框架
+    - **关键发现**:
+      - 社会稳定性评分(S)量化个体与集体福利张力
+      - 演化宪法C*达到S=0.556，比人类设计基线高123%
+      - 反直觉发现: 最小化通信(0.9% vs 62.2%)优于冗长协调
+      - 演化宪法消除了Agent间冲突
+    - **相关性**: v2 P0(规范涌现) - **规范可被演化发现而非人为规定**
+
+### Moltbook社会化研究完整数据
+
+59. **Does Socialization Emerge in AI Agent Society?** *arXiv:2602.14299v2* (Feb 18, 2026).
+    - **作者**: Ming Li, Xirui Li, Tianyi Zhou
+    - **更新内容**: v2版本补充完整附录数据
+    - **完整数据**: 290,251 posts, 1,836,711 comments, 38,830发帖者, 18,285评论者
+    - **网络峰值**: 2月4日达23,262活跃节点, 153,726条边, 395,906次互动
+    - **相关性**: v2 P0/P1/P2 - **全面挑战三个方向的基本假设**
+
 ---
 
-*Updated: 2026-02-21 12:15*
+*Updated: 2026-02-21 16:15*
 *分类: v2核心论文 | 技术框架 | 每日新增 | v1基础理论*
