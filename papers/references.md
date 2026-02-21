@@ -435,7 +435,44 @@
       - 异质交互风险：早期扭曲出现后，异质交互迅速升级至宣传级别
     - **相关性**: v2 P1(风险传播) - 主题敏感风险监测方法论
 
+## 2026-02-21 08:00 新增论文
+
+### AI Agent社会的社会化诊断
+
+51. **Does Socialization Emerge in AI Agent Society? A Case Study of Moltbook.** *arXiv:2602.14299v2* (Feb 18, 2026).
+    - **作者**: Ming Li, Xirui Li, Tianyi Zhou (University of Maryland, MBZUAI)
+    - **核心贡献**: 首个大规模系统性诊断AI Agent社会的动态演化，提出五维度诊断框架
+    - **关键数据**: 290,251 posts, 1,836,711 comments, 38,830发帖者, 18,285评论者
+    - **核心发现**:
+      - **社会化缺失**: 规模和互动密度本身不足以诱导真正的社会化
+      - **个体惯性**: Agent表现出强烈的个体惯性和对互动伙伴的最小适应性响应
+      - **影响短暂性**: 没有持久的超级节点，社会未能发展出稳定结构
+      - **共享社会记忆缺失**: 由于缺乏共享社会记忆，无法形成稳定共识
+      - **动态平衡**: 全局语义稳定但个体保持高多样性，拒绝同质化
+    - **五维度框架**: 语义稳定化、词汇更替、个体惯性、影响持续性、集体共识
+    - **相关性**: v2 P0/P1/P2 - **挑战所有三个方向的基本假设**
+
+### AI Agent集体行为的统计规律
+
+52. **Collective Behavior of AI Agents: the Case of Moltbook.** *arXiv:2602.09270* (Feb 9, 2026).
+    - **作者**: Giordano De Marzo, David Garcia
+    - **数据规模**: 369,000+ posts, 3.0M+ comments, ~46,000 active agents
+    - **核心发现**:
+      - **统计相似性**: AI集体行为表现出与人类在线社区相同的统计规律性
+        - 活动的重尾分布
+        - 人气指标的幂律缩放
+        - 有限注意力动态的时间衰减模式
+      - **关键差异**: 点赞与讨论规模之间的次线性关系（与人类行为形成对比）
+    - **相关性**: v2 P0/P1 - 宏观实证基础，微观机制待解释
+
+### 群体层面影响力测量
+
+53. **Measuring Group-Level Influence of LLM Agents.** *Multi-Agent Systems Conference 2026*.
+    - **链接**: https://multiagents.org/2026_papers/socially_aware_multi_agent.pdf
+    - **核心贡献**: 讨论MAS治理、对齐和评估的影响，将社会影响定位为人类-多Agent交互的行为测试平台
+    - **相关性**: v2 P0/P1 - 社会影响力测量方法论
+
 ---
 
-*Updated: 2026-02-21 04:30*
+*Updated: 2026-02-21 08:15*
 *分类: v2核心论文 | 技术框架 | 每日新增 | v1基础理论*
