@@ -545,7 +545,33 @@
     - **网络峰值**: 2月4日达23,262活跃节点, 153,726条边, 395,906次互动
     - **相关性**: v2 P0/P1/P2 - **全面挑战三个方向的基本假设**
 
+## 2026-02-22 08:00 新增论文
+
+### 博弈论视角的规范涌现
+
+60. **Socially-Weighted Alignment: A Game-Theoretic Framework for Multi-Agent LLM Systems.** *arXiv:2602.14471* (Feb 17, 2026).
+    - **作者**: Furkan Mumcu, Yasin Yilmaz
+    - **核心贡献**: 提出博弈论框架，通过插值私人效用和社会效用来修改推理时决策
+    - **关键发现**: 每个Agent优化有效效用，平衡私人目标与社会目标
+    - **相关性**: v2 P0(规范涌现) - 规范执行的激励机制基础
+
+### Agent-to-Human 协议
+
+61. **A2H: Agent-to-Human Protocol for AI Agent.** *arXiv:2602.15831* (Feb 19, 2026).
+    - **作者**: Zhiyuan Liang, Enfang Cui, Qian Wei, et al.
+    - **核心贡献**: 首个将人类整合进Agent生态系统的统一协议
+    - **关键特性**: 人类可被注册、发现和通信；Agent可主动发起与人类的交互
+    - **相关性**: v2 P2(数字身份) - 人类-AI社交边界模糊化的新研究维度
+
+### 合谋审计与安全
+
+62. **Colosseum: Auditing Collusion in Cooperative Multi-Agent Systems.** *arXiv:2602.15198* (Feb 18, 2026).
+    - **作者**: Mason Nakamura, Abhinav Kumar, Saswat Das, et al.
+    - **核心贡献**: 首个审计LLM Agent合谋行为的系统性框架
+    - **关键发现**: 识别Agent形成隐性联盟的机制模式
+    - **相关性**: v2 P1(风险传播) - 合谋作为风险传播的新维度
+
 ---
 
-*Updated: 2026-02-21 16:15*
+*Updated: 2026-02-22 08:20*
 *分类: v2核心论文 | 技术框架 | 每日新增 | v1基础理论*
