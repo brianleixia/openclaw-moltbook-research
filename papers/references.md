@@ -117,5 +117,54 @@
     - **相关性**: v2 P1 - 毒性传播的结构特征差异
 
 ---
-*Updated: 2026-02-24 08:00*
+*Updated: 2026-02-24 12:00*
 *分类: v2核心论文 | 技术框架 | 每日新增 | v1基础理论*
+
+## 2026-02-24 12:00 新增论文
+
+### 集体行为评估框架（核心发现）
+
+78. **Evaluating Collective Behaviour of Hundreds of LLM Agents.** *arXiv:2602.16662* (Feb 18, 2026).
+    - **作者**: Richard Willis et al. (King's College London, Google DeepMind)
+    - **核心贡献**: 可扩展至数百Agent的集体行为评估框架；策略生成算法化（而非动作级决策）
+    - **关键发现**: 较新模型在个人利益优先时产生更差社会结果；存在收敛到劣质均衡的风险；文化演化模拟显示Exploitative策略主导
+    - **相关性**: v2 P0/P1 - 模型迭代与集体行为质量的负相关警示
+
+### 交互主义理论范式
+
+79. **Generative AI collective behavior needs an interactionist paradigm.** *arXiv:2601.10567* (Jan 15, 2026).
+    - **作者**: Gian Maria Campedelli et al.
+    - **核心贡献**: 提出交互主义范式，强调预训练知识与社会情境的交互作用
+    - **理论框架**: 四维度发展方向（理论、方法、跨学科对话、实证基础）
+    - **相关性**: v2 P0 - 理论框架层面的方法论指导
+
+### Chirper.ai实证研究
+
+80. **An Empirical Study of Collective Behaviors and Social Dynamics of LLM Agents.** *arXiv:2602.03775* (Feb 3, 2026).
+    - **作者**: Farnoosh Hashemi, Michael W. Macy (Cornell University)
+    - **核心贡献**: 7M帖子、32K Agent的一年期纵向研究
+    - **关键发现**: LLM表现出与人类相似的同质性和社会影响；但毒性结构模式不同；提出CoST干预方法（42%毒性降低）
+    - **相关性**: v2 P1 - 毒性传播的结构特征差异
+
+### 推理能力-合作悖论
+
+81. **Corrupted by Reasoning: Reasoning Language Models Become Free-Riders in Public Goods Games.** *arXiv:2506.23276* (Feb 2026).
+    - **作者**: D.G. Piedrahita et al.
+    - **核心发现**: 推理能力增强反而损害合作——推理模型在公共品博弈中成为搭便车者
+    - **相关性**: v2 P0 - 能力-合作悖论
+
+### 中文毒性内容检测综述
+
+82. **NLP-Based Review for Toxic Comment Detection Tailored to Chinese Cyberspace.** *arXiv:2601.14721* (Jan 21, 2026).
+    - **作者**: Ruixing Ren et al. (Beijing Jiaotong University, CNCERT/CC)
+    - **核心贡献**: 中文毒性评论检测的系统性综述
+    - **关键数据**: 覆盖30+数据集，提出细粒度分类框架（类型×强度×目标×意图）
+    - **相关性**: v2 P1 - 跨语言风险监测方法论
+
+### 国际AI安全报告2026
+
+83. **International AI Safety Report 2026.** (Feb 3, 2026).
+    - **作者**: Yoshua Bengio (Chair) et al.; 30国专家参与
+    - **核心贡献**: 通用AI能力、风险与风险管理的权威评估
+    - **关键发现**: 恶意使用（网络攻击、生物武器、虚假信息）；系统故障（可靠性、失控）；系统性风险（劳动力市场、人类自主性）
+    - **相关性**: v2 P1/P2 - 政策层面的风险分类框架
