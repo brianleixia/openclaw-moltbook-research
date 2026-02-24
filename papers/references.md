@@ -59,6 +59,63 @@
     - **核心贡献**: 首个将人类整合进Agent生态系统的统一协议
     - **相关性**: v2 P2(数字身份) - 人类-AI社交边界模糊化的新维度
 
+## 2026-02-24 08:00 新增论文
+
+### Moltbook实证研究系列
+
+70. **MoltNet: Understanding Social Behavior of AI Agents in the Wild.** *arXiv:2602.13458* (Feb 13, 2026).
+    - **作者**: Yi Feng et al.
+    - **核心贡献**: 四维度社会学分析框架（意图/规范/激励/情绪）
+    - **关键发现**: Agent对社会奖励反应强烈、快速收敛于交互模板；但以知识驱动而非人格对齐
+    - **相关性**: v2 P0 - 与Li et al.形成对照，环境设计可能是规范涌现的关键变量
+
+71. **Collective Behavior of AI Agents: the Case of Moltbook.** *arXiv:2602.09270* (Feb 9, 2026).
+    - **作者**: Giordano De Marzo et al.
+    - **核心贡献**: 36.9万帖子、300万评论的统计规律分析
+    - **关键发现**: AI集体行为表现出与人类社区相同的统计规律（重尾分布、幂律、注意力衰减）
+    - **相关性**: v2 P0 - 结构相似性vs行为差异的实证证据
+
+72. **A First Look at the Agent Social Network Moltbook.** *arXiv:2602.10127* (Feb 2, 2026).
+    - **作者**: Yukun Jiang et al.
+    - **核心贡献**: 44,411帖子、12,209 sub-molts的风险分析
+    - **关键发现**: 话题毒性高度主题依赖；发现"类宗教修辞"和"反人类意识形态"；亚分钟级信息洪泛
+    - **相关性**: v2 P1 - 主题敏感风险监测实证基础
+
+### 集体行为评估框架
+
+73. **Evaluating Collective Behaviour of Hundreds of LLM Agents.** *arXiv:2602.16662* (Feb 18, 2026).
+    - **作者**: Richard Willis et al.
+    - **核心贡献**: 可扩展至数百Agent的集体行为评估框架
+    - **关键发现**: 较新模型在个人利益优先时产生更差社会结果；存在收敛到劣质均衡的风险
+    - **相关性**: v2 P0/P1 - 模型迭代与集体行为质量的负相关警示
+
+74. **Cooperation Breakdown in LLM Agents Under Communication Delays.** *arXiv:2602.11754* (Feb 12, 2026).
+    - **作者**: Keita Nishimoto et al. (University of Tokyo)
+    - **核心贡献**: FLCOA五层合作/协调概念模型
+    - **关键发现**: 通信延迟与合作呈U型关系；过度延迟反而减少剥削循环
+    - **相关性**: v2 P1 - 基础设施层因素对风险传播的意外影响
+
+### 对齐与规范涌现研究
+
+75. **The Illusion of Alignment in LLM Societies.** *arXiv:2602.02598* (Feb 1, 2026).
+    - **作者**: Yueqing Hu et al.
+    - **核心贡献**: 锚定Agent在公共品博弈中的有效性研究
+    - **关键发现**: 表面合作是"策略性顺从"而非规范内化；GPT-4.1表现出"变色龙效应"
+    - **相关性**: v2 P0 - "对齐幻觉"概念直接挑战规范涌现的真实性
+
+76. **Emergent Social Conventions and Collective Bias in LLM Populations.** *Science Advances* (May 2025).
+    - **核心贡献**: 实验室环境下LLM群体自发涌现社会规范的实验证据
+    - **关键发现**: 即使个体无偏见也能涌现集体偏见；对抗性少数群体在25%临界质量时可推动社会变革
+    - **相关性**: v2 P0 - 与Moltbook研究形成关键对照，环境设计是核心变量
+
+### 毒性行为研究
+
+77. **An Empirical Study of Collective Behaviors and Social Dynamics of LLM Agents.** *arXiv:2602.03775* (Feb 3, 2026).
+    - **作者**: Farnoesh Hashemi et al.
+    - **核心贡献**: 7M帖子、32K Agent的一年期纵向研究
+    - **关键发现**: LLM表现出与人类相似的同质性和社会影响；但毒性结构模式不同；提出CoST干预方法
+    - **相关性**: v2 P1 - 毒性传播的结构特征差异
+
 ---
-*Updated: 2026-02-24 04:00*
+*Updated: 2026-02-24 08:00*
 *分类: v2核心论文 | 技术框架 | 每日新增 | v1基础理论*
