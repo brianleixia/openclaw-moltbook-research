@@ -161,8 +161,26 @@
     - **关键发现**: LLM表现出与人类相似的同质性和社会影响；但毒性结构模式与人类不同；提出Chain of Social Thought (CoST)干预方法（42%毒性降低）
     - **相关性**: v2 P1 - 毒性传播的结构特征差异；CoST可作为早期预警系统的干预组件
 
+## 2026-03-01 04:00 新增论文/资源
+
+### Human-AI Parasocial Interaction理论
+
+89. **When Human-AI Interactions Become Parasocial: Agency and Anthropomorphism in Affective Design.** *ResearchGate* (Feb 15, 2026).
+    - **相关性**: v1 Idea 1 (观察者效应) 理论补充
+    - **关键洞见**: 探讨拟社会互动(PSI)在AI交互中的形成机制及其对人类亲密关系的影响
+    - **对OMP的启示**: 为"Human-as-Observer-of-AI"范式提供心理学理论基础
+
+### LLM Agent建模工具资源
+
+90. **LLM-Agent-Based-Modeling-and-Simulation.** *GitHub/tsinghua-fib-lab*.
+    - **资源链接**: https://github.com/tsinghua-fib-lab/LLM-Agent-Based-Modeling-and-Simulation
+    - **机构**: 清华大学FIB实验室
+    - **相关性**: v2 P0/P2方法论工具
+    - **内容**: LLM Agent建模与模拟综述，发表于*Humanities and Social Sciences Communications*
+    - **对OMP的启示**: 可作为AgentSociety之外的可选模拟平台
+
 ---
-*Updated: 2026-02-28 16:00*
+*Updated: 2026-03-01 04:00*
 *分类: v2核心论文 | 技术框架 | 每日新增 | v1基础理论*
 
 ## 2026-02-24 12:00 新增论文
