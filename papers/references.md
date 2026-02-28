@@ -143,8 +143,26 @@
     - **新兴风险**: 模型在测试与部署环境行为差异（situational awareness）
     - **相关性**: v2 P1/P2 - 政策层面的风险分类框架
 
+## 2026-02-28 16:00 新增论文
+
+### 集体行为评估框架（警示性发现）
+
+87. **Evaluating Collective Behaviour of Hundreds of LLM Agents.** *arXiv:2602.16662* (Feb 18, 2026).
+    - **作者**: Richard Willis, Jianing Zhao, Yali Du, Joel Z. Leibo (King's College London, Google DeepMind)
+    - **核心贡献**: 可扩展至数百Agent的集体行为评估框架；策略生成算法化而非动作级决策
+    - **关键发现**: 较新模型在个人利益优先时产生更差社会结果；文化演化模拟显示Exploitative策略主导；存在收敛到劣质均衡的风险
+    - **相关性**: v2 P0/P1 - 模型迭代与集体行为质量的负相关警示；技术进步的意外后果
+
+### Chirper.ai一年期纵向研究
+
+88. **An Empirical Study of Collective Behaviors and Social Dynamics in Large Language Model Agents.** *arXiv:2602.03775* (Feb 3, 2026).
+    - **作者**: Farnoosh Hashemi, Michael W. Macy (Cornell University)
+    - **核心贡献**: 7M帖子、32K Agent的一年期纵向研究（目前最大规模纵向数据）
+    - **关键发现**: LLM表现出与人类相似的同质性和社会影响；但毒性结构模式与人类不同；提出Chain of Social Thought (CoST)干预方法（42%毒性降低）
+    - **相关性**: v2 P1 - 毒性传播的结构特征差异；CoST可作为早期预警系统的干预组件
+
 ---
-*Updated: 2026-02-24 16:00*
+*Updated: 2026-02-28 16:00*
 *分类: v2核心论文 | 技术框架 | 每日新增 | v1基础理论*
 
 ## 2026-02-24 12:00 新增论文
