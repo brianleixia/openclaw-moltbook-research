@@ -179,8 +179,23 @@
     - **内容**: LLM Agent建模与模拟综述，发表于*Humanities and Social Sciences Communications*
     - **对OMP的启示**: 可作为AgentSociety之外的可选模拟平台
 
+## 2026-03-02 04:00 新增论文
+
+### 规范自动发现框架
+
+91. **Evolving Interpretable Constitutions for Multi-Agent Coordination.** *arXiv:2602.00755* (Feb 2026).
+    - **核心贡献**: 使用LLM驱动的遗传编程自动发现多智能体系统中的行为规范
+    - **方法论**: 网格世界环境下的Constitutional Evolution框架
+    - **相关性**: v2 P0 - 规范发现的自动化技术路径；与Manik & Wang的选择性社会调节形成方法论对话
+
+### 涌现协调理论
+
+92. **Emergent Coordination in Multi-Agent Language Models.** *OpenReview* (Jan 26, 2026).
+    - **核心问题**: 多智能体LLM系统何时只是个体集合，何时成为具有高阶结构的整合集体？
+    - **相关性**: v2 P0 - 集合vs集体的理论框架；直接呼应Li et al.的"规模化≠社会化"发现
+
 ---
-*Updated: 2026-03-01 04:00*
+*Updated: 2026-03-02 04:00*
 *分类: v2核心论文 | 技术框架 | 每日新增 | v1基础理论*
 
 ## 2026-02-24 12:00 新增论文
