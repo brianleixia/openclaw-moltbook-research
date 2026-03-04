@@ -73,13 +73,18 @@
 
 ## Agent启动必读清单
 
-### Researcher Agent启动时：
-1. **读取** `AGENT_QUICKREF.md`（本文件）
-2. **读取** `skills/research-swarm.md`
-3. **读取** `iterations/v2-refined/ideas.md`（注意是v2不是v1）
-4. **读取** 今日 `daily/YYYY-MM-DD.md`
-5. 搜索 → 写入 `daily/YYYY-MM-DD.md`
-6. 如有新论文，追加到 `papers/references.md`
+### Researcher Agent启动时（⚠️ 注意消息大小限制）：
+1. **读取** `AGENT_QUICKREF.md`（本文件）⚡ **优先读取**
+2. **读取** 今日 `daily/YYYY-MM-DD.md` ⚡ **必须读取**
+3. 搜索 → 写入 `daily/YYYY-MM-DD.md`
+4. 如有新论文，追加到 `papers/references.md`
+
+**🚫 避免读取大文件**：
+- ❌ 不要读取 `iterations/v1-initial/ideas.md`（~50KB+，会导致消息超限）
+- ❌ 不要读取 `skills/research-swarm.md`（除非必要）
+- ❌ 不要读取 `iterations/v2-refined/ideas.md`（在Daily Cycle中不必要）
+
+**💡 简化流程**：直接基于本文件的核心研究方向（P0/P1/P2）进行搜索，无需读取完整ideas.md
 
 ### Librarian Agent启动时：
 1. **读取** `AGENT_QUICKREF.md`
