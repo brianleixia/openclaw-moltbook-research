@@ -18,6 +18,7 @@
 
 | 日期 | 关键发现 | 文件 |
 |------|----------|------|
+| 2026-03-02 | Moltbook研究进入方法论反思期(第14天无新论文)、Constitutional Evolution框架(规范自动发现)、Emergent Coordination理论(集合vs集体) | [daily/2026-03-02.md](../daily/2026-03-02.md) |
 | 2026-03-01 | Moltbook研究进入平稳期(10天无新论文)、AAAI WMAC多智能体协作方法论对话、移动端Agent系统新方向(ClawMobile) | [daily/2026-03-01.md](../daily/2026-03-01.md) |
 | 2026-02-28 | Willis et al.集体行为评估框架、Hashemi & Macy一年期纵向研究(7M帖子)、文献周期模式确认 | [daily/2026-02-28.md](../daily/2026-02-28.md) |
 | 2026-02-27 | 消化整理期持续(13天)、v2框架稳定性确认、环境设计关键变量 | [daily/2026-02-27.md](../daily/2026-02-27.md) |
