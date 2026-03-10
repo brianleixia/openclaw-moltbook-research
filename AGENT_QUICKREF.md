@@ -26,74 +26,80 @@
 
 **文件**: `iterations/v2-refined/ideas.md`
 
-## 工作模式
+## 工作模式 (v3-重构版)
+
+### 数据流
+```
+Researcher (6次/日) → inbox/ (临时) → Librarian (00:00) → journal/ + papers/
+```
 
 ### Daily Cycle（自动，每天6次）
 ```
-04:00 Researcher → daily/YYYY-MM-DD.md
-08:00 Researcher → daily/YYYY-MM-DD.md
-12:00 Researcher → daily/YYYY-MM-DD.md
-16:00 Researcher → daily/YYYY-MM-DD.md
-20:00 Researcher → daily/YYYY-MM-DD.md
-00:00 Librarian  → memory/librarian-reports/YYYY-MM-DD.md
+04:00 Researcher → inbox/2026-03-11-04-00.md
+08:30 Researcher → inbox/2026-03-11-08-30.md
+12:30 Researcher → inbox/2026-03-11-12-30.md
+16:00 Researcher → inbox/2026-03-11-16-00.md
+20:00 Researcher → inbox/2026-03-11-20-00.md
+00:00 Librarian  → 整理 inbox/ → journal/ + papers/ + 清理 inbox/
 ```
 
 ### Iteration Cycle（手动触发）
 用户启动 → Full Agent Swarm → 产出 `iterations/v{N}/`
 
-## 文件夹职责矩阵
+## 文件夹职责矩阵 (v3-重构版)
 
-| 文件夹 | 谁写 | 内容 |
-|--------|------|------|
-| `daily/` | Researcher | 每日调研发现 |
-| `papers/references.md` | Researcher | 论文记录 |
-| `memory/insights.md` | Librarian | 索引（链接到daily） |
-| `memory/librarian-reports/` | Librarian | 结构检查报告 |
-| `memory/update-log.md` | 用户 | 版本历史 |
-| `iterations/v2-refined/` | Full Swarm | 当前研究框架 |
-| `iterations/v1-initial/` | Full Swarm | 历史版本 |
-| `skills/` | 用户 | Agent技能定义 |
+| 文件夹 | 谁写 | 生命周期 | 内容 |
+|--------|------|----------|------|
+| `inbox/` | Researcher | 24h临时 | 原始发现（未经整理） |
+| `journal/` | Librarian | 永久 | 每日精选汇总 |
+| `journal/index.md` | Librarian | 永久 | 日志索引（日期+方向+链接） |
+| `papers/p0*/` | Librarian | 永久 | P0方向论文（按方向分类） |
+| `papers/p1*/` | Librarian | 永久 | P1方向论文 |
+| `papers/p2*/` | Librarian | 永久 | P2方向论文 |
+| `ideas/` | 用户/Librarian | 永久 | Idea孵化器（backlog/active/done） |
+| `experiments/` | 用户 | 永久 | 实验记录 |
+| `OVERVIEW.md` | Librarian | 永久 | 项目仪表盘（纯链接） |
+| `PROGRESS.md` | 用户/Librarian | 永久 | 进度看板 |
+| `iterations/v{N}/` | Full Swarm | 永久 | 版本迭代历史 |
+| `agents/` | 用户 | 永久 | Sub-agent配置 |
+| `memory/` | Librarian | 永久 | 跨方向洞察（原创思考） |
 
 ## 关键文件路径（必须遵守）
 
 ```
-✅ daily/2026-02-19.md
-❌ 2026-02-19-daily.md
-❌ memory/daily-2026-02-19.md
+✅ inbox/2026-03-11-04-00.md      (Researcher写入)
+✅ journal/2026-03-11.md           (Librarian整理后)
+✅ journal/index.md                (Librarian维护的索引)
+✅ papers/p0-norm-emergence/       (按方向分类的论文)
+✅ ideas/active.md                 (进行中的Idea列表)
+✅ OVERVIEW.md                     (仪表盘，纯链接)
+✅ PROGRESS.md                     (进度看板)
 
-✅ iterations/v2-refined/ideas.md  (当前版本)
-❌ iterations/v1-initial/ideas.md  (旧版本，不更新)
-
-✅ memory/insights.md
-❌ memory-insights.md
-
-✅ AGENT_QUICKREF.md
-❌ 不存在
+❌ 2026-03-11-04-00.md (根目录)
+❌ journal-inbox.md
+❌ papers/references.md (已废弃)
 ```
 
 ## Agent启动必读清单
 
-### Researcher Agent启动时（⚠️ 注意消息大小限制）：
-1. **读取** `AGENT_QUICKREF.md`（本文件）⚡ **优先读取**
-2. **读取** 今日 `daily/YYYY-MM-DD.md` ⚡ **必须读取**
-3. 搜索 → 写入 `daily/YYYY-MM-DD.md`
-4. 如有新论文，追加到 `papers/references.md`
+### Researcher Agent启动时：
+1. **读取** `AGENT_QUICKREF.md` ⚡ **优先读取**
+2. **读取** `agents/omp-researcher/` 下的 SOUL.md, USER.md, AGENTS.md
+3. 搜索 → 写入 `inbox/YYYY-MM-DD-HH-MM.md`
+4. git commit & push
 
 **🚫 避免读取大文件**：
-- ❌ 不要读取 `iterations/v1-initial/ideas.md`（~50KB+，会导致消息超限）
-- ❌ 不要读取 `skills/research-swarm.md`（除非必要）
-- ❌ 不要读取 `iterations/v2-refined/ideas.md`（在Daily Cycle中不必要）
-
-**💡 简化流程**：直接基于本文件的核心研究方向（P0/P1/P2）进行搜索，无需读取完整ideas.md
+- ❌ 不要读取 `iterations/v1-initial/ideas.md`（~50KB+）
+- ❌ 不要直接写入 `journal/` 或 `papers/`
+- ❌ 不要在 inbox/ 中创建过多文件（每次1-3条发现）
 
 ### Librarian Agent启动时：
 1. **读取** `AGENT_QUICKREF.md`
-2. **读取** `skills/librarian-agent.md`
-3. **读取** `skills/research-swarm.md`
-4. 检查今日daily是否完整
-5. 检查是否有文件在错误位置
-6. 更新 `memory/insights.md` 索引
-7. 写入 `memory/librarian-reports/YYYY-MM-DD.md`
+2. **读取** `agents/omp-librarian/` 下的 SOUL.md, USER.md, AGENTS.md
+3. 读取 inbox/ 中的昨日文件
+4. 整理 → journal/ + papers/ + 更新索引
+5. 清理 inbox/
+6. git commit & push
 
 ## 禁止事项
 
@@ -114,14 +120,17 @@
 
 ## 快速链接
 
-- **当前迭代**: `iterations/v2-refined/ideas.md`
-- **历史版本**: `iterations/v1-initial/ideas.md`
-- **今日日志**: `daily/YYYY-MM-DD.md`
-- **论文记录**: `papers/references.md`
-- **项目结构**: `skills/research-swarm.md`
+- **项目仪表盘**: [OVERVIEW.md](./OVERVIEW.md)
+- **进度看板**: [PROGRESS.md](./PROGRESS.md)
+- **日志索引**: [journal/index.md](./journal/index.md)
+- **论文库**: [papers/README.md](./papers/README.md)
+- **Idea孵化器**: [ideas/README.md](./ideas/README.md)
+- **当前迭代**: [iterations/v2-refined/ideas.md](./iterations/v2-refined/ideas.md)
+- **Sub-agents**: [agents/](./agents/)
 
 ## 上次更新记录
+- 2026-03-11: **架构重构 v3** - 新目录结构(inbox/journal/papers/ideas/)
+- 2026-03-11: 创建常驻 Sub-agents (Researcher & Librarian)
 - 2026-02-19: 对齐所有文件到v2-refined框架
 - 2026-02-19: 创建AGENT_QUICKREF.md
 - 2026-02-18: v2-refined迭代完成
-- 2026-02-17: v1-initial项目初始化
