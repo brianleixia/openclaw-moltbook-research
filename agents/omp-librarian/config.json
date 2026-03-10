@@ -1,0 +1,14 @@
+{
+  "name": "OMP Librarian Agent", 
+  "description": "Daily organizer for OMP project",
+  "workspace": "/root/.openclaw/workspace/research-openclaw-moltbook",
+  "agentWorkspace": "/root/.openclaw/workspace/agents/omp-librarian",
+  "schedule": "0 0 * * *",
+  "tasks": [
+    "Process yesterday's inbox/",
+    "Update journal/ and papers/",
+    "Update indices",
+    "Clean inbox/",
+    "Git commit and push"
+  ]
+}

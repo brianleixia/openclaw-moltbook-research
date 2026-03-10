@@ -1,0 +1,12 @@
+{
+  "name": "OMP Researcher Agent",
+  "description": "Daily research scout for OMP project",
+  "workspace": "/root/.openclaw/workspace/research-openclaw-moltbook",
+  "agentWorkspace": "/root/.openclaw/workspace/agents/omp-researcher",
+  "schedule": "0 4,8,12,16,20 * * *",
+  "tasks": [
+    "Search for latest research in AI social norms, multi-agent coordination",
+    "Write findings to inbox/",
+    "Git commit and push"
+  ]
+}
