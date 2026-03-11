@@ -1,0 +1,14 @@
+{
+  "name": "OMP Writer Agent",
+  "description": "Paper drafting and documentation",
+  "workspace": "/root/.openclaw/workspace/research-openclaw-moltbook",
+  "agentWorkspace": "/root/.openclaw/workspace/agents/omp-writer",
+  "schedule": "0 21 * * 0",
+  "tasks": [
+    "Integrate findings into paper drafts",
+    "Write technical documentation",
+    "Create presentation outlines",
+    "Update README and OVERVIEW",
+    "Generate visual summaries"
+  ]
+}

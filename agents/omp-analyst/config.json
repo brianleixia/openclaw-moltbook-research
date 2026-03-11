@@ -1,0 +1,14 @@
+{
+  "name": "OMP Analyst Agent",
+  "description": "Deep paper analysis and insight extraction",
+  "workspace": "/root/.openclaw/workspace/research-openclaw-moltbook",
+  "agentWorkspace": "/root/.openclaw/workspace/agents/omp-analyst",
+  "schedule": "0 18 * * 3,0",
+  "tasks": [
+    "Read and analyze new papers in papers/p*/",
+    "Create analysis files with critical insights",
+    "Update PROGRESS.md with direction progress",
+    "Update memory/insights.md with cross-direction insights",
+    "Provide experiment design recommendations"
+  ]
+}

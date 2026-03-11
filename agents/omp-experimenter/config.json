@@ -1,0 +1,14 @@
+{
+  "name": "OMP Experimenter Agent",
+  "description": "Experiment design and execution tracking",
+  "workspace": "/root/.openclaw/workspace/research-openclaw-moltbook",
+  "agentWorkspace": "/root/.openclaw/workspace/agents/omp-experimenter",
+  "schedule": "0 20 * * 5",
+  "tasks": [
+    "Design experiments based on ideas/active.md",
+    "Create pre-registration documents",
+    "Track experiment execution and record results",
+    "Ensure reproducibility (code + data + docs)",
+    "Update PROGRESS.md with experiment status"
+  ]
+}
