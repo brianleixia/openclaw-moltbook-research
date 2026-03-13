@@ -8,6 +8,7 @@
 
 | 日期 | 发现数 | P0 | P1 | P2 | 关键词 |
 |------|--------|----|----|----|--------|
+| [2026-03-13](./2026-03-13.md) | 5 | ✅ | - | - | LLM, social-norms, emergence, Science-Advances, OpenClaw |
 | [2026-03-12](./2026-03-12.md) | 10 | ✅ | ✅ | ✅ | OpenClaw, Moltbook, MCP, ContextEngine, security |
 | [2026-03-11](./2026-03-11.md) | 3 | ✅ | ✅ | - | COINE, TerraLingua, norms |
 | [2026-03-04](./2026-03-04.md) | 1 | - | - | - | message-limit-error |
@@ -22,6 +23,8 @@
 ### P0: 规范涌现
 | 日期 | 标题 | 来源 |
 |------|------|------|
+| 03-13 | Emergent Social Conventions in LLM Populations (Science Advances) | [journal/2026-03-13.md](./2026-03-13.md) |
+| 03-13 | CSCW 2025: Multi-Agent Systems for Prosocial Behavior | [journal/2026-03-13.md](./2026-03-13.md) |
 | 03-12 | Emergent Conventions in LLM Populations (Science Advances) | [journal/2026-03-12.md](./2026-03-12.md) |
 | 03-12 | Constitutional Evolution (arXiv) | [journal/2026-03-12.md](./2026-03-12.md) |
 | 03-11 | COINE 2026 会议 | [journal/2026-03-11.md](./2026-03-11.md) |
@@ -46,14 +49,18 @@
 
 | 关键词 | 出现日期 |
 |--------|---------|
-| OpenClaw | 03-12 |
+| LLM | 03-13 |
+| social-norms | 03-13 |
+| emergence | 03-13 |
+| Science-Advances | 03-13 |
+| OpenClaw | 03-12, 03-13 |
 | Moltbook | 03-12 |
 | MCP | 03-12 |
 | ContextEngine | 03-12 |
 | ArkClaw | 03-12 |
 | CVE-2026-25253 | 03-11, 03-12 |
-| multi-agent | 03-11, 03-12 |
-| norms | 03-11, 03-12 |
+| multi-agent | 03-11, 03-12, 03-13 |
+| norms | 03-11, 03-12, 03-13 |
 | TerraLingua | 03-11 |
 | COINE | 03-11, 03-12 |
 
